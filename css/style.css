@@ -5,6 +5,9 @@
 .nav-link{
     color: #fff;
 }
+.navbar-toggler{  
+    background:#fff !important;
+}
 .navbar-brand:hover,
 .nav-link:hover{
     color: #000;
@@ -34,7 +37,7 @@
     text-align: center;
     text-transform: capitalize;
     font-size: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 2em;
 }
 .img-circle{
     width: 100%;
@@ -43,9 +46,9 @@
     border-radius: 50%;
 }
 .about .left-border{
-    padding-left: 20px;
-    padding-top: 50px;
-    border-left:4px solid #10828C;
+    padding-left: 1em;
+    padding-top: 1em;
+    border-left: 0.3em solid #10828C;
 }
 .about h3{
     color: #10828C;
@@ -55,7 +58,7 @@
     margin-bottom: 0;
 }
 .portfolio .item{
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 }
 .blog .card .card-title{
     color: #F97300;
@@ -70,8 +73,8 @@
     transition: 0.5s all;
 }
 .ourTeam .item{
-    height: 380px;
     cursor: pointer;
+    margin-bottom: 2em;
 }
 .ourTeam .item:hover .overlay{ 
     background: #F97300;

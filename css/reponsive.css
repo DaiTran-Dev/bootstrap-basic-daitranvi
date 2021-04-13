@@ -1,0 +1,13 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+  
+}
+@media screen and (max-width: 768px){
+    .title-section {
+        margin-bottom: 1em;
+        font-size: 30px;
+    }
+    .portfolio .item {
+        margin-bottom: 1.5em;
+    }
+}
