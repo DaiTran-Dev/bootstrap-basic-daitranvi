@@ -17,24 +17,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-sm-end ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" data-value="about" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" data-value="team" href="#">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Post</a>
+                    <a class="nav-link" data-value="post" href="#">Post</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link"data-value="contact"  href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class="banner" style="background: url('./images/banner.jpg') no-repeat">
+    <section class="banner" style="background: url('./images/banner.jpg') no-repeat" id="banner">
         <div class="container">
             <div class="content">
                 <h3>Hello, Welcome To My Offcail Webstie</h3>
@@ -45,7 +45,153 @@
             </div>
         </div>
     </section>
+    <section class="about mt-5" id="about">
+        <div class="container">
+            <div class="title-section">About Me</div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/avatar.jpg" alt="avatar" class="img-fluid img-circle img-square">
+                    <p class="text-center">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-md-8 left-border">
+                    <h3>D.John</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ullam distinctio hic, voluptatem quaerat id odit sunt aperiam explicabo eum quidem et rerum necessitatibus expedita perferendis at minima adipisci eveniet!
+                    Aperiam quis placeat accusantium repudiandae, mollitia sed exercitationem blanditiis dignissimos. Molestiae ratione quae reiciendis. Cumque minus rem blanditiis. Illum sint cupiditate incidunt minus ab. Reprehenderit architecto officia sit inventore vitae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio mt-5" id="portfolio">
+        <div class="container">
+            <div class="title-section">Portfolio</div>
+            <div class="row">
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 item">
+                    <a href=""><img src="./images/banner.jpg" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog mt-5" id="blog">
+        <div class="container">
+            <div class="title-section">Blog</div>
+            <div class="row">
+               <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/banner.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href=""><small>Read more</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/banner.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href=""><small>Read more</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/banner.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href=""><small>Read more</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ourTeam mt-5" id="team">
+        <div class="container">
+            <div class="title-section">Our Team</div>
+            <div class="row">
+               <div class="col-md-3 item">
+                    <img src="./images/avatar.jpg" alt="" class="img-fluid">
+                    <div class="name-user text-center overlay">
+                        Sara
+                    </div>
+                    <span class="text-muted">Manager</span>
+               </div>
+               <div class="col-md-3 item">
+                    <img src="./images/avatar.jpg" alt="" class="img-fluid">
+                    <div class="name-user text-center overlay">
+                        Sara
+                    </div>
+                    <span class="text-muted">Manager</span>
+                </div>
+                <div class="col-md-3 item">
+                    <img src="./images/avatar.jpg" alt="" class="img-fluid">
+                    <div class="name-user text-center overlay">
+                        Sara
+                    </div>
+                    <span class="text-muted">Manager</span>
+                </div>
+                <div class="col-md-3 item">
+                    <img src="./images/avatar.jpg" alt="" class="img-fluid">
+                    <div class="name-user text-center overlay">
+                        Sara
+                    </div>
+                    <span class="text-muted">Manager</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form mt-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="title-section">Our Team</div>
+                </div>
+                <div class="col-md-6">
+                    <form action="">
+                        <input type="email" class="form-control mt-3" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control mt-3" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="submit" class="form-control mt-3 btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./plugins/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="./js/js.js"></script>
 </body>
 </html>

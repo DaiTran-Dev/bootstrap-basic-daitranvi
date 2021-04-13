@@ -9,7 +9,6 @@
 .nav-link:hover{
     color: #000;
 }
-/* banner */
 .banner{
     height: 500px;
     display:  flex;
@@ -29,4 +28,69 @@
 }
 .content .btn:hover{
     color: #000;
+}
+.title-section{
+    color: #F97300;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.img-circle{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about .left-border{
+    padding-left: 20px;
+    padding-top: 50px;
+    border-left:4px solid #10828C;
+}
+.about h3{
+    color: #10828C;
+}
+.about p{
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+.portfolio .item{
+    margin-bottom: 30px;
+}
+.blog .card .card-title{
+    color: #F97300;
+}
+.ourTeam{
+    position: relative;
+}
+.ourTeam .name-user{
+    background: #F97300;
+    color: #fff;
+    border-bottom-left-radius: 85%;
+    transition: 0.5s all;
+}
+.ourTeam .item{
+    height: 380px;
+    cursor: pointer;
+}
+.ourTeam .item:hover .overlay{ 
+    background: #F97300;
+    border-bottom-left-radius: 65%; 
+    min-width: 255px;
+    text-align: center;
+    padding: 15px;
+    transition: 0.5s all;
+    position: absolute;
+    z-index: 2;
+}
+.contact-form{
+    padding-bottom: 50px;
+}
+.contact-form .title-section{
+    text-align: left;
+}
+.contact-form .btn-submit{
+    color: #fff;
+    background: #F97300;
+    cursor: pointer;
 }
