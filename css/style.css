@@ -1,0 +1,32 @@
+.navbar{ 
+    background:#F97300;
+}
+.navbar-brand,
+.nav-link{
+    color: #fff;
+}
+.navbar-brand:hover,
+.nav-link:hover{
+    color: #000;
+}
+/* banner */
+.banner{
+    height: 500px;
+    display:  flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.content {
+    max-width: 70%;
+}
+.content h3{
+    color: #F97300;
+    text-transform: capitalize;
+}
+.content .btn{
+    background:#F97300;
+    color: #fff;
+}
+.content .btn:hover{
+    color: #000;
+}
